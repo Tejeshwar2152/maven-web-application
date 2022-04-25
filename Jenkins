@@ -8,6 +8,7 @@ stage ('checkoutCode')
 stage ('Build'){
 sh "${mavenHome}/bin/mvn clean package"
 }
+/*
 stage ('ExicuteSonarQube'){
 sh "${mavenHome}/bin/mvn clean sonar:sonar"
 }
@@ -23,3 +24,4 @@ sshagent(['fd8d8f5b-7bb8-4e75-afdb-22ff08e8a914']) {
 }
 
 }
+*/
