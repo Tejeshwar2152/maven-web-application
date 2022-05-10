@@ -5,6 +5,19 @@ agent any
  maven 'maven3.8.4'
  }
  
+ triggers {
+  pollSCM('* * * * *')
+  //cron('* * * * *')
+}
+
+options {
+  //Add the Timestamp to the console output
+  timestamps()
+  //DIscard old Builds
+  buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '5', numToKeepStr: '5')
+}
+
+ 
  stages{
   //Get the code from GitHub
   stage('CheckoutCode'){
