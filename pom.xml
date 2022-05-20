@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://65.0.61.177:8081/repository/Pipeline-facebook-dev/</url>
+	      <url>http://http://65.2.153.87:8081/repository/Pipeline-facebook-dev/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://65.0.61.177:8081/repository/Pipeline-facebook-dev-snapshot/</url>
+	      <url>http://65.2.153.87:8081/repository/Pipeline-facebook-dev-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
