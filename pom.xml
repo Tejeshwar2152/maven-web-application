@@ -99,7 +99,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <urlhttp://13.235.42.148:8081/repository/FreeStyleDemo-WebApplication-Release/></url>
+	      <url>http://13.235.42.148:8081/repository/FreeStyleDemo-WebApplication-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
